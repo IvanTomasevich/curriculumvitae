@@ -81,6 +81,12 @@ h3 {
   color: #111;
 }
 
+.mySlides {
+  display:block;
+  margin: auto;
+  padding-top: 30px;
+}
+
 footer {
   background-color:#282E34;
   padding:10px 10px;
