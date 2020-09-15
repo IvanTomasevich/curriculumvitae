@@ -23,22 +23,22 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("../img/DrLuis.jpg");
+  background-image: url("../img/uno.jpg");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("../img/justicia.jpeg");
+  background-image: url("../img/dos.jpg");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("../img/presente.jpg");
+  background-image: url("../img/tres.jpg");
   min-height: 400px;
 }
 
 .bgimg-4 {
-  background-image: url("../img/tribunales.jpeg");
+  background-image: url("../img/cuatro.jpg");
   min-height: 400px;
 }
 
