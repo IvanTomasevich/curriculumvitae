@@ -1,0 +1,119 @@
+@import url(galeria.css);
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto:wght@900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Parallax style*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font:400 15px/1.8 'Comic Neue', cursive;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../img/DrLuis.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("../img/justicia.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../img/presente.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("../img/tribunales.jpeg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;, .bgimg-4
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+  color: #000;
+}
+
+.caption span.border {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: #fff
+}
+.link {
+  background; transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  margin: 20px;
+
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+footer {
+  background-color:#282E34;
+  padding:10px 10px;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  text-align: center;
+  justify-content: space-around;
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+  }
+}
+@media (max-width:880px) {
+  .link {
+    display: block;
+  }
+}
+@media (min-width:768px) {
+  .redes {
+    width: auto;
+  }
+  footer .cont {
+    justify-content: space-between;
+  }
+}
+@media (min-width:1024px) {
+  .cont {
+    width: 100%;
+  }
+}
