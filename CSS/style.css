@@ -82,6 +82,7 @@ h3 {
 }
 
 .mySlides {
+  max-width: 100%;
   display:block;
   margin: auto;
   padding-top: 30px;
