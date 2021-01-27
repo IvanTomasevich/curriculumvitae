@@ -99,6 +99,12 @@ footer {
   justify-content: space-around;
 }
 
+.back {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: bold;
+}
+
 
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
